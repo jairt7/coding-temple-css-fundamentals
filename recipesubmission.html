@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe submission</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A form to submit recipes">
+    <meta name="author" content="Jared Wilson">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Recipe submission form</h1>
+</header>
+
+<form action="submitform.php">
+    <label for="recipename">Recipe name:</label><br>
+    <input type="text" id="recipename" name="recipename"><br>
+    <label for="ingredients">Ingredients:</label>
+    <textarea id="ingredients" name="ingredients"></textarea><br>
+    <label for="instructions">Instructions:</label>
+    <textarea id="instructions" name="instructions"></textarea><br>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+</form>
+
+
+
+<footer>
+    <p><i>This form doesn't actually send data anywhere, it's just for decoration.</i></p>
+</footer>
+
+</body>
+</html>
